@@ -1,0 +1,492 @@
+/* Pour les appareils de taille <= à 680 px 
+	==> les téléphones mobiles */
+@media screen and (max-width:680px)
+{
+
+#CV{
+	width:100%;
+	height:100%;
+	font-family:Comic sans MS;
+}
+
+#TopMenu{
+	width:25%;
+	height:100%;
+	border:2px solid #000000;
+	background-color:white;
+	float:left;
+	list-style-type:none;
+	margin:0px;
+	padding-bottom:2000px;
+}
+
+
+div li{
+	margin:20px;
+}
+
+#corps{
+	width:100%;
+	height:100%;
+}
+
+#entete{
+	text-align:center;
+	border:2px solid #000000;
+}
+
+#photo{
+	border:2px solid #000000;
+}
+
+div img{
+	width:100px;
+	height:100px;
+}
+
+#formation{
+	text-align:center;
+	border:2px solid #000000;
+}
+
+#formation div.gauche{
+	float:left;
+	
+}
+
+#formation div.gauche p.A{
+	padding-top:9px;
+	padding-bottom:92px;
+}
+
+#formation div.droite{
+	padding-top:2px;
+}
+
+#experiencespro{
+	text-align:center;
+	border:2px solid #000000;
+}
+
+#experiencespro div.gauche{
+	float:left;
+}
+
+#experiencespro div.gauche p.A{
+	padding-top:9px;
+	padding-bottom:93px;
+}
+
+#experiencespro div.gauche p.B{
+	padding-bottom:115px;
+}
+
+#experiencespro div.gauche p.C{
+	padding-bottom:95px;
+}
+
+#experiencespro div.gauche p.D{
+	padding-bottom:100px;
+}
+
+#experiencespro div.droite{
+	padding-top:2px;
+}
+
+#langues{
+	text-align:center;
+	border:2px solid #000000;
+}
+
+#langues div.gauche{
+	float:left;
+}
+
+#langues div.gauche p.A{
+	padding-top:9px;
+	padding-bottom:2px;
+}
+
+#langues div.gauche p.C{
+	padding-bottom:10px;
+}
+
+#langues div.droite{
+	padding-top:10px;
+}
+
+#autres{
+	text-align:center;
+	border:2px solid #000000;
+}
+
+#autres div.gauche{
+	float:left;
+}
+
+#autres div.gauche p.A{
+	padding-top:2px;
+	padding-bottom:23px;
+}
+
+#autres div.gauche p.B{
+	padding-bottom:22px;
+}
+
+#autres div.gauche p.C{
+	padding-bottom:23px;
+}
+
+
+#autres div.droite{
+	padding-top:2px;
+}
+
+}
+
+
+/* Pour les appareils de taille comprise entre 681 et 1279 px ==> tablettes */
+@media screen and (min-width:681px) and (max-width:1279px)
+
+{
+	
+#CV{
+	width:100%;
+	height:100%;
+	border:2px solid #000000;
+	font-family:Comic sans MS;
+}
+
+#nom{
+	font-weight:bold;
+}
+
+#TopMenu{
+	/* width:95%;
+	height:100%; */
+	padding-top:0;
+	padding-bottom:2.5%;
+	text-align:center;
+	list-style-type:none;
+}
+
+div li{
+	float:left;
+	margin:20px;
+}
+
+#entete{
+	
+	width:95%;
+	height:100%;
+	margin:auto;
+	padding-bottom:100px;
+	/* border:2px solid #00FFFF; */
+}
+
+#etatcivil{
+	
+	width:50%;
+	height:100%;
+	/* border:2px solid #FACC2E; */
+	float:left;
+}
+
+#etatcivil p{
+	text-align:left;
+}
+
+#photo{
+	padding-top:50px;
+	width:100%;
+	height:100%;
+	/* border:2px solid #DF3A01; */
+	text-align:center;
+	/*margin:50%;*/
+}
+
+#photo img{
+	width:7.5%;
+	height:7.5%;
+}
+
+#formation{
+	width:100%;
+	height:100%;
+	/* border:2px solid #FF00FF; */
+}
+	
+.gauche{
+	width:20%;
+	height:100%;
+	/* border:2px solid #00FF00; */
+	float:left;
+}
+
+.droite{
+	width:100%;
+	height:100%;
+	
+	/* border:2px solid #0000FF; */
+}
+
+
+#formation div.gauche p.A{
+	padding-top:8px;
+	padding-bottom:65px;
+	margin-left:50px;
+}
+
+#formation div.gauche p.B{
+	padding-top:2%;
+	padding-bottom:10%;
+	margin-left:50px;
+}
+
+#formation div.droite{
+	padding-top:1px;
+}
+
+
+#experiencespro div.gauche p.A{
+	padding-top:8px;
+	padding-bottom:58px;
+	margin-left:50px;
+}
+
+#experiencespro div.gauche p.B{
+	padding-top:10px;
+	padding-bottom:85px;
+	margin-left:50px;
+}
+
+#experiencespro div.gauche p.C{
+	padding-top:10px;
+	padding-bottom:60px;
+	margin-left:50px;
+}	
+
+#experiencespro div.gauche p.D{
+	padding-top:10px;
+	padding-bottom:55px;
+	margin-left:50px;
+}
+
+#experiencespro div.droite{
+	padding-top:1px;
+}
+
+#langues div.gauche p.A{
+	padding-top:4px;
+	padding-bottom:0;
+	margin-left:50px;
+}
+
+#langues div.gauche p.B{
+	padding-top:0;
+	padding-bottom:0%;
+	margin-left:50px;
+}
+
+#langues div.gauche p.C{
+	padding-top:0;
+	padding-bottom:0%;
+	margin-left:50px;
+}
+
+#langues div.droite{
+	padding-top:1px;
+}
+
+#autres div.gauche p.A{
+	padding-top:4px;
+	margin-left:20%;
+}
+
+#autres div.gauche p.B{
+	margin-left:20%;
+}
+
+#autres div.gauche p.C{
+	margin-left:20%;
+}
+
+#autres div.gauche p.D{
+	margin-left:20%;
+}
+
+#autres div.droite{
+	padding-top:1px;
+}
+}
+
+/* Pour les appareils de taille >= 1280 px ==> ordinateurs */
+@media screen and (min-width:1280px){
+	
+#CV{
+	width:100%;
+	height:100%;
+	font-family:Comic sans MS;
+}
+
+#fondmenu{
+	width:100%;
+	height:100%;
+	border:2px solid #000000;
+	padding-bottom:70px;
+}
+
+#TopMenu{
+	text-align:center;
+	list-style-type:none;
+}
+
+div li{
+	float:left;
+	margin:20px;
+}
+
+#entete{
+	width:100%;
+	height:100%;
+	border:2px solid #000000;
+	
+}
+
+#etatcivil{
+	width:50%;
+	height:100%;
+	float:left;
+}
+
+#photo{
+	width:100%;
+	height:100%;
+	text-align:right;
+	
+}
+
+#photo img{
+	width:200px;
+	height:200px;
+}
+
+#formation{
+	width:25%;
+	height:100%;
+	border:2px solid #000000;
+	float:left;
+	padding-bottom:400px;
+}
+
+#formation div.gauche{
+	padding-top:7px;
+	width:20%;
+	float:left;
+}
+
+#formation div.gauche p.A{
+	padding-bottom:95px;
+}
+
+#formation div.gauche p.B{
+	padding-bottom:102px;
+}
+
+#formation div.droite{
+	padding-top:1px;
+}
+
+#experiencespro{
+	float:left;
+	width:25%;
+	border:2px solid #000000;
+	padding-bottom:34px;
+}
+
+#experiencespro div.gauche{
+	padding-top:7px;
+	width:20%;
+	float:left;
+}
+
+#experiencespro div.gauche p.A{
+	padding-bottom:94px;
+}
+
+#experiencespro div.gauche p.B{
+	padding-bottom:118px;
+}
+
+#experiencespro div.gauche p.C{
+	padding-bottom:92px;
+}
+
+#experiencespro div.gauche p.D{
+	padding-bottom:181px;
+}
+
+#experiencespro div.droite{
+	padding-top:1px;
+}
+
+#langues{
+	float:left;
+	width:25%;
+	border:2px solid #000000;
+	padding-bottom:407px;
+}
+
+#langues div.gauche{
+	padding-top:7px;
+	width:30%;
+	float:left;
+}
+
+#langues div.gauche p.C{
+	padding-bottom:119px;
+}
+
+#langues div.droite{
+	padding-top:8px;
+}
+
+#autres{
+	float:left;
+	width:24%;
+	height:100%;
+	border:2px solid #000000;
+	padding-bottom:285px;
+}
+
+#autres div.gauche{
+	padding-top:7px;
+	width:30%;
+	float:left;
+}
+
+#autres div.droite{
+	padding-top:7px;
+}
+
+#autres div.gauche p.A{
+	padding-bottom:23px;
+}
+
+#autres div.gauche p.B{
+	padding-bottom:44px;
+}
+
+#autres div.gauche p.C{
+	padding-bottom:25px;
+}
+
+#autres div.gauche p.D{
+	padding-bottom:110px;
+}
+
+.titresection{
+	text-decoration:underline;
+}
+
+}
